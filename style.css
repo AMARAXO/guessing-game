@@ -1,0 +1,50 @@
+*{
+    align-items: center;
+}
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    align-items: center;
+    margin-left: 25vw;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    color: white;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  #guessInput,
+  button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #message {
+    font-weight: bold;
+    color: red;
+  }
+  .container{
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 4vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 5px 10px red;
+    width: fit-content;
+    background-color: rgb(2, 2, 78);
+    color: white;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
